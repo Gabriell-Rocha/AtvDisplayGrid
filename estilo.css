@@ -1,0 +1,69 @@
+.grid-container {
+    display: grid;
+    height: 95vh;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 2px 0px;
+    text-align:center;
+    color: #fff;
+    grid-template-areas:
+    "bloco1 bloco1 bloco1 bloco2 bloco2 bloco2 "
+    "bloco3 bloco3 bloco3 bloco3 bloco3 bloco3 "
+    "bloco4 bloco4 bloco4 bloco4 bloco4 bloco4 "
+    "bloco5 bloco5-2 bloco5-3 bloco6 bloco6 bloco6"
+    "bloco5 bloco5-2 bloco5-3 bloco6 bloco6 bloco6" 
+    "bloco7 bloco7 bloco7 bloco8 bloco8 bloco8"
+    "bloco9 bloco9 bloco9 bloco9 bloco9 bloco9 "
+    "bloco10 bloco10 bloco10 bloco10 bloco10 bloco10 "
+}
+.bloco1{ 
+    grid-area: bloco1;
+    background-color: aqua;
+}
+.bloco2{ 
+    grid-area: bloco2;
+    background-color: rgb(16, 40, 148);
+}
+.bloco3{ 
+    grid-area: bloco3;
+    background-color: rgb(148, 16, 148);
+}
+.bloco4{ 
+    grid-area: bloco4;
+    background-color: rgb(53, 148, 16);
+}
+.bloco5{ 
+    grid-area: bloco5;
+    background-color: rgb(194, 223, 29);
+}
+.bloco5-2{ 
+    grid-area: bloco5-2;
+    background-color: rgb(122, 108, 70);
+}
+.bloco5-3{ 
+    grid-area: bloco5-3;
+    background-color: rgb(194, 125, 21);
+}
+.bloco6{ 
+    grid-area: bloco6;
+    background-color: rgb(148, 16, 71);
+}
+.bloco7{ 
+    grid-area: bloco7;
+    background-color: rgb(197, 21, 21);
+}
+.bloco8{ 
+    grid-area: bloco8;
+    background-color: rgb(140, 180, 28);
+}
+.bloco9{ 
+    grid-area: bloco9;
+    background-color: rgb(221, 119, 23);
+}
+.bloco10{ 
+    grid-area: bloco10;
+    background-color: rgb(110, 101, 236);
+}
+
+
+  
